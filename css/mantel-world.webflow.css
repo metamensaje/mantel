@@ -1,0 +1,152 @@
+@font-face {
+  font-family: Suisse Intl;
+  src: url('../fonts/SuisseIntl-Regular.woff2') format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Suisse Intl;
+  src: url('../fonts/SuisseIntl-Medium.woff2') format("woff2");
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: Suisse Intl;
+  src: url('../fonts/SuisseIntl-Book.woff2') format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
+
+.w-layout-blockcontainer {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+@media screen and (max-width: 991px) {
+  .w-layout-blockcontainer {
+    max-width: 728px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .w-layout-blockcontainer {
+    max-width: none;
+  }
+}
+
+.navbar {
+  background-color: #0000;
+  width: 100%;
+  position: fixed;
+  inset: 0% 0% auto;
+}
+
+.navbar-container {
+  justify-content: space-between;
+  width: 100%;
+  max-width: 100%;
+  margin-left: 0;
+  margin-right: 0;
+  padding: 30px 50px;
+  display: flex;
+}
+
+.nav-link {
+  color: #000;
+  letter-spacing: .03em;
+  text-transform: uppercase;
+  margin: 0;
+  padding: 5px 10px;
+  font-family: Suisse Intl, Arial, sans-serif;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 100%;
+}
+
+.nav-menu {
+  flex: 1;
+  justify-content: space-between;
+  align-items: flex-start;
+  display: flex;
+}
+
+.relative {
+  position: relative;
+}
+
+.container {
+  max-width: 100%;
+  padding: 0 50px;
+}
+
+.container.center {
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.hero {
+  color: #000;
+  text-align: center;
+  letter-spacing: -5px;
+  text-wrap: balance;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: Suisse Intl, Arial, sans-serif;
+  font-size: 100px;
+  font-weight: 500;
+  line-height: 95%;
+}
+
+.tagline {
+  color: #000;
+  text-align: center;
+  text-wrap: balance;
+  margin-bottom: 0;
+  font-family: Suisse Intl, Arial, sans-serif;
+  font-size: 18px;
+  line-height: 125%;
+}
+
+.flexcolumn {
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+  flex-flow: column;
+  display: flex;
+}
+
+.hidden {
+  display: none;
+}
+
+
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url('../fonts/SuisseIntl-Regular.woff2') format('woff2');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url('../fonts/SuisseIntl-Medium.woff2') format('woff2');
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+}
+@font-face {
+  font-family: 'Suisse Intl';
+  src: url('../fonts/SuisseIntl-Book.woff2') format('woff2');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+}
